@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kuslarHakkinda"
+    android:background="@color/color1">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="330dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kuşlar, doğanın renkli ve canlı yaşamını temsil eden önemli bir parçadır. Evlerimize renk ve neşe katan, sevimli ve zarif yaratıklardır. Kuşlar, sahiplerine sadakatle bağlanır, onlarla kurdukları iletişim ve etkileşimle insana benzersiz bir dostluk sunarlar."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="331dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kuşlar için dengeli bir beslenme önemlidir. Taze meyve, sebze, tohumlar ve özel olarak formüle edilmiş kuş yemleriyle beslenmelidirler. Tüylerinin sağlıklı kalması için düzenli olarak tüy bakımı yapılmalıdır. Kuşların yaşadığı kafesin düzenli olarak temizlenmesi gerekir ve kuşlar düzenli olarak veteriner kontrolünden geçirilmelidir."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="329dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kuşlar, evcil hayvan olarak seçilen dostlarımızdır. Onlarla geçirilen zaman, karşılıklı sevgi ve saygı üzerine kurulan özel bir bağ oluşturur. Kuşlar sessizliklerinde bile bize eşlik eder, evimizin bir parçası haline gelirler ve yaşamımıza anlam katarlar. Kuşların eşsiz dünyasında kaybolmak, insanı doğanın sükunetinde huzurlu bir yolculuğa çıkarır. Onlarla birlikte yaşamak, sevgi dolu bir deneyim sunar ve evimizi bir cennet köşesine dönüştürür."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="325dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kuşlar, muhteşem renklerle süslenmiş tüyleriyle göz kamaştırır. Her türde farklı renkler ve desenler görülebilir. Ayrıca, kuşlar sıradışı zeka kapasitesine sahiptir, öğrenmeye ve etkileşime açık olmalarıyla bilinirler. Bazı türler konuşmayı öğrenebilir ve sahipleriyle iletişim kurabilir. Kuşlar doğal olarak çeşitli melodik sesler çıkarır, şarkıları ve ötüşleriyle ev atmosferine huzur ve neşe katarlar. Ayrıca, kuşlar sosyal varlıklardır ve sahipleriyle güçlü bir bağ kurabilirler."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar12"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/bluek2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

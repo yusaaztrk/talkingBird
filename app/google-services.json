@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977132919555",
+    "project_id": "talkingbird-3cb52",
+    "storage_bucket": "talkingbird-3cb52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977132919555:android:a145b303a8f40313ac2736",
+        "android_client_info": {
+          "package_name": "com.example.talkingbird"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VM__TsLeO8PTVW54w5YltLXQHx2EyLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
